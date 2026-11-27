@@ -100,8 +100,9 @@ Technique folders:
 | `random_testing` | `symbolic_execution` |
 | | `concolic_testing` |
 
-TODO (team): confirm the technique folder names match the lectures before the
-folders are created.
+Each technique folder contains a `_TEMPLATE.py` comment header. Copy it to
+`test_<PREFIX>_<module>.py` (for example `test_IM_record_result.py`) to start
+a test file; files named `_TEMPLATE.py` are not collected by pytest.
 
 ## 6. Measure coverage for each technique
 
