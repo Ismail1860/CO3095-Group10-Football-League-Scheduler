@@ -1,0 +1,8 @@
+[run]
+source = league
+omit =
+    main.py
+
+[report]
+show_missing = True
+skip_empty = True

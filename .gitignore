@@ -221,3 +221,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- CO3095 Group 10 additions ---
+# PyCharm: share project files, keep personal ones out
+.idea/workspace.xml
+.idea/usage.statistics.xml
+.idea/shelf/
+.idea/dictionaries/
+.idea/misc.xml
+# Temporary files from atomic saves (Jose-9) and runtime league files
+data/*.tmp
