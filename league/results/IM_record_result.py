@@ -16,7 +16,7 @@ def record_result(
     today: date,
     override: bool = False,
     reason: Optional[str] = None,
-) -> Tuple[Optional[Result], List[str], bool]:
+) -> Tuple[Optional[Result], List[str]]:
     """Ismail-1: Record a match result.
 
     User story:
@@ -44,8 +44,8 @@ def record_result(
         reason: reason for the override (AC8).
 
     Returns:
-        (new Result, [], override flag) when recorded; (None, errors, False)
-        when rejected. The flag is True when an override was applied, so the
-        caller logs it (AC8).
+        (new Result, []) when recorded; (None, errors) when rejected. For an
+        accepted override the caller, which passed override=True, logs it
+        (AC8).
     """
     raise NotImplementedError
